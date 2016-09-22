@@ -18,15 +18,6 @@ class LogLevelMask extends AbstractMask
   const MASK_INFO = 64;
   const MASK_DEBUG = 128;
 
-  const MASK_ALL = (
-    self::MASK_EMERGENCY |
-    self::MASK_ALERT |
-    self::MASK_CRITICAL |
-    self::MASK_ERROR |
-    self::MASK_WARNING |
-    self::MASK_NOTICE |
-    self::MASK_INFO |
-    self::MASK_DEBUG
-  );
+  const MASK_ALL = 255;
 
 }

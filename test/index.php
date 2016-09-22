@@ -12,6 +12,8 @@ use Dez\Logger\Handler\Mask\LogLevelMask;
 use Dez\Logger\Handler\StreamHandler;
 use Dez\Logger\Log;
 
+//die(var_dump(1 | 2 | 4 | 8 | 16 | 32 | 64 | 128));
+
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
